@@ -1,10 +1,10 @@
-In this tutorial we build a simple model serving function with a `router` object and one or more models.
+In this tutorial we will build a simple model serving function with a `router` object and one or more models.
 See the [Serving Graphs](https://docs.mlrun.org/en/stable/serving/serving-graph.html) documentation for more 
 advanced topologies and multi-stage real-time pipelines.
 
 <p align="center"><img src="./assets/pipeline.png" alt="pipeline" width="450"/></p>
 
-We can use built-in (per framework) model server classes or define your own serving class ([**see documentation**](https://docs.mlrun.org/en/stable/serving/custom-model-serving-class.html)) which provides greater flexibility.
+We can use built-in (per framework) model server classes or define our own serving class ([**see documentation**](https://docs.mlrun.org/en/stable/serving/custom-model-serving-class.html)) which offers greater flexibility.
 
 **Write a model serving class**
 
